@@ -23,7 +23,7 @@ group :dependencies do
   gem "paperclip", "~>4.3.7"
 
   # if you use amazon s3 for warpable image storage
-  gem 'aws-sdk', '~> 1.5.7'
+  gem 'aws-sdk', '~> 3.0.1'
 
   # for rake image migration tasks
   gem 'right_aws'
