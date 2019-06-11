@@ -11,9 +11,11 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 
+//= require_tree .
 //= require jquery
 //= require bootstrap-sprockets
-
+//= require jquery_ujs
+//= require turbolinks
 //= require popper
 //= require jquery/dist/jquery.js
 //= require jquery-ujs/src/rails.js 

@@ -10,6 +10,7 @@ install:
   - cp config/database.yml.example config/database.yml
   - cp config/config.yml.example config/config.yml
   - cp db/schema.rb.example db/schema.rb
+  - ./lib/exporter-deps.sh
   - bundle install
   - bundle exec rake db:setup || bundle exec rake db:migrate
 
